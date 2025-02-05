@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">Market</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="pages/product.html">제품</a></li>
+                <li><a href="pages/cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a></li>
+                <li><a href="pages/login.html" id="loginBtn">로그인</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>새로운 쇼핑의 시작</h1>
+            <p>최고의 제품을 최상의 서비스로 제공합니다</p>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="검색어를 입력하세요">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">전체</button>
+                <button class="category-btn" data-category="electronics">전자기기</button>
+                <button class="category-btn" data-category="fashion">패션</button>
+                <button class="category-btn" data-category="books">도서</button>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <h2>인기 제품</h2>
+            <div class="product-grid" id="productGrid">
+                <!-- 제품들 -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>고객 서비스</h3>
+                <ul>
+                    <li><a href="#">자주 묻는 질문</a></li>
+                    <li><a href="#">배송 안내</a></li>
+                    <li><a href="#">반품 정책</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>회사 정보</h3>
+                <ul>
+                    <li><a href="#">회사 소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Market. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 - Market</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="logo"><a href="../index.html">Market</a></div>
+            <ul class="nav-links">
+                <li><a href="../index.html">홈</a></li>
+                <li><a href="product.html">제품</a></li>
+                <li><a href="cart.html">장바구니</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="auth-container">
+        <form id="registerForm" class="auth-form">
+            <h2>회원가입</h2>
+            <input type="text" placeholder="이름" required>
+            <input type="email" placeholder="이메일" required>
+            <input type="password" placeholder="비밀번호" required>
+            <input type="password" placeholder="비밀번호 확인" required>
+            <button type="submit" class="btn">가입하기</button>
+            <p>이미 계정이 있으신가요? <a href="login.html">로그인</a></p>
+        </form>
+    </main>
+
+    <script src="../js/auth.js"></script>
+</body>
+</html> 
